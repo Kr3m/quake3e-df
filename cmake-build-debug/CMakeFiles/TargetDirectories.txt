@@ -1,0 +1,11 @@
+/home/kevin/GitHub/Quake3e/cmake-build-debug/CMakeFiles/botlib.dir
+/home/kevin/GitHub/Quake3e/cmake-build-debug/CMakeFiles/qcommon.dir
+/home/kevin/GitHub/Quake3e/cmake-build-debug/CMakeFiles/qcommon_ded.dir
+/home/kevin/GitHub/Quake3e/cmake-build-debug/CMakeFiles/client.dir
+/home/kevin/GitHub/Quake3e/cmake-build-debug/CMakeFiles/quake3e_opengl_x86.dir
+/home/kevin/GitHub/Quake3e/cmake-build-debug/CMakeFiles/quake3e_vulkan_x86.dir
+/home/kevin/GitHub/Quake3e/cmake-build-debug/CMakeFiles/q3ui.dir
+/home/kevin/GitHub/Quake3e/cmake-build-debug/CMakeFiles/quake3e.dir
+/home/kevin/GitHub/Quake3e/cmake-build-debug/CMakeFiles/quake3e.ded.dir
+/home/kevin/GitHub/Quake3e/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kevin/GitHub/Quake3e/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,132 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "quake3e",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "botlib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-botlib-Debug-96a013eacc5b8c8082c0.json",
+					"name" : "botlib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-client-Debug-603aab586da422ab3ca7.json",
+					"name" : "client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "q3ui::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-q3ui-Debug-6f64eb411f3eb68683a4.json",
+					"name" : "q3ui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qcommon::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qcommon-Debug-0633c768ede0c8e63e03.json",
+					"name" : "qcommon",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qcommon_ded::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qcommon_ded-Debug-0e2eb9d5eb3b217a318d.json",
+					"name" : "qcommon_ded",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quake3e::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quake3e-Debug-ae2805f396df32d2864f.json",
+					"name" : "quake3e",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quake3e.ded::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quake3e.ded-Debug-ff154aadf38bd97014d4.json",
+					"name" : "quake3e.ded",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quake3e_opengl_x86::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quake3e_opengl_x86-Debug-4f9e96b4ebd48d764cb3.json",
+					"name" : "quake3e_opengl_x86",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quake3e_vulkan_x86::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quake3e_vulkan_x86-Debug-982a9683226e719e7c8c.json",
+					"name" : "quake3e_vulkan_x86",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kevin/GitHub/Quake3e/cmake-build-debug",
+		"source" : "/home/kevin/GitHub/Quake3e"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

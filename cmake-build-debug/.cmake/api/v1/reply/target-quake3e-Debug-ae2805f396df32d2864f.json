@@ -1,0 +1,1150 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "quake3e"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_EXECUTABLE",
+			"TARGET_LINK_LIBRARIES",
+			"set_property",
+			"find_package"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"cmake_modules/FindSDL2.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 186,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 208,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 171,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 383,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 372,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 187,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fdiagnostics-color=always"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/usr/include/SDL2"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "botlib::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "client::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "qcommon::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "q3ui::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "quake3e::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libSDL2main.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libSDL2.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "quake3e",
+	"nameOnDisk" : "quake3e",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "code/unix/unix_main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "code/unix/unix_shared.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "code/unix/linux_signals.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/qcommon/cm_load.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/qcommon/cm_patch.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/qcommon/cm_polylib.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/qcommon/cm_test.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/qcommon/cm_trace.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/qcommon/cmd.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/qcommon/common.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/qcommon/cvar.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/qcommon/files.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/qcommon/history.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/qcommon/huffman.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/qcommon/huffman_static.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/qcommon/keys.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/qcommon/md4.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/qcommon/md5.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/qcommon/msg.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/qcommon/net_chan.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/qcommon/net_ip.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/qcommon/puff.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/qcommon/q_math.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/qcommon/q_shared.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/qcommon/unzip.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/qcommon/vm.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/qcommon/vm_interpreted.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/qcommon/vm_x86.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/server/sv_bot.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/server/sv_ccmds.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/server/sv_client.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/server/sv_filter.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/server/sv_game.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/server/sv_init.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/server/sv_main.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/server/sv_net_chan.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/server/sv_snapshot.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/qcommon.dir/code/server/sv_world.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/be_aas_bspq3.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/be_aas_cluster.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/be_aas_debug.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/be_aas_entity.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/be_aas_file.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/be_aas_main.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/be_aas_move.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/be_aas_optimize.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/be_aas_reach.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/be_aas_route.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/be_aas_routealt.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/be_aas_sample.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/be_ai_char.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/be_ai_chat.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/be_ai_gen.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/be_ai_goal.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/be_ai_move.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/be_ai_weap.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/be_ai_weight.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/be_ea.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/be_interface.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/l_crc.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/l_libvar.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/l_log.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/l_memory.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/l_precomp.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/l_script.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/botlib.dir/code/botlib/l_struct.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/client/cl_avi.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/client/cl_cgame.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/client/cl_cin.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/client/cl_console.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/client/cl_curl.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/client/cl_hud_snap.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/client/cl_input.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/client/cl_jpeg.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/client/cl_keys.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/client/cl_main.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/client/cl_net_chan.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/client/cl_parse.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/client/cl_scrn.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/client/cl_ui.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/client/snd_adpcm.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/client/snd_codec.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/client/snd_codec_ogg.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/client/snd_codec_wav.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/client/snd_dma.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/client/snd_main.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/client/snd_mem.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/client/snd_mix.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/client/snd_wavelet.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jaricom.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jcapimin.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jcapistd.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jcarith.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jccoefct.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jccolor.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jcdctmgr.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jchuff.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jcinit.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jcmainct.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jcmarker.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jcmaster.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jcomapi.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jcparam.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jcprepct.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jcsample.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jctrans.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jdapimin.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jdapistd.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jdarith.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jdatadst.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jdatasrc.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jdcoefct.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jdcolor.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jddctmgr.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jdhuff.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jdinput.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jdmainct.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jdmarker.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jdmaster.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jdmerge.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jdpostct.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jdsample.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jdtrans.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jerror.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jfdctflt.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jfdctfst.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jfdctint.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jidctflt.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jidctfst.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jidctint.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jmemmgr.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jmemnobs.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jquant1.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jquant2.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/client.dir/code/libjpeg/jutils.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/q3ui.dir/code/sdl/sdl_gamma.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/q3ui.dir/code/sdl/sdl_glimp.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/q3ui.dir/code/sdl/sdl_input.c.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/q3ui.dir/code/sdl/sdl_snd.c.o",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}
